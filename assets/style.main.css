@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #eee;
+}
+
+header{
+	display: grid;
+	grid-template-columns: 3rem auto 1rem auto;
+	border-bottom: .12rem solid #ededed;
+	padding: 0 80px;
+	background: #fff;
+}
+
+header div{
+	margin: auto 0;
+}
+
+header div:last-child{
+	margin: auto 0 auto auto;
+}
+
+.page-icon img{
+	height: 2.3rem;
+	width: 2.3rem;
+}
+
+.page-title h1{
+	font-family: "Ronoto", sans-serif;
+	color: #494545;
+	font-size: 1.6rem;
+}
+
+.page-title h1 span{
+	color: #f88e8e;
+}
+
+.spacer-h{
+	height: 5rem;
+}
+
+.git-icon svg{
+	height: 1.8rem;
+	width: 1.8rem;
+	color: red;
+}
+
+.github-info{
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: .6rem;
+	font-family: "Ronoto", sans-serif;
+	color: #494545;
+	cursor: pointer;
+}
+
+.github-info div{
+	margin: auto 0;
+}
+
+.git-owner p{
+	font-size: .85rem;
+	margin-bottom: .15rem;
+}
+
+.git-owner ul{
+	list-style: none;
+	display: flex;
+	font-size: .75rem;
+}
+.git-owner ul li:nth-child(2){
+	margin: 0 .3rem;
+}
+
+.git-owner ul li svg{
+	position: relative;
+	top: .15rem;
+	height: .85rem;
+}
+
+/*developer-info*/
+.developer-info{
+	font-family: "Ronoto", sans-serif;
+	padding: 30px 80px 30px 80px;
+	color: #666;
+	font-size: .95rem;
+	background: #fff;
+}
+
+.developer-info p{
+	padding: 15px 20px;
+	background: #ffeded;
+	border-radius: 7px;
+}
+
+.developer-info a{
+	text-decoration: none;
+	color: #ff8080;
+	cursor: pointer;
+}
+
+.developer-info a:hover{
+	text-decoration: underline;
+}
+
+/*extension-table*/
+.extension-table{
+	padding: 20px 80px 60px 80px;
+	display: flex;
+    flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+	background: #fff;
+}
+
+.card{
+	border: 1px solid #ccc;
+	padding: 15px;
+	max-width: 300px;
+	font-family: "Ronoto", sans-serif;
+	cursor: pointer;
+	box-shadow: 0 0 10px 2px #fff;
+	transition: ease-in 0.3s;
+	margin: 8px;
+	border-radius: 7px;
+}
+
+.card:hover{
+	box-shadow: 0 0 15px 2px #e6e6e6;
+	border: 1px solid #eee;
+}
+
+.upper{
+	display: grid;
+	grid-template-columns: 3.5rem auto;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+
+.upper div{
+	margin: auto 0;
+}
+
+.extension-icon img{
+	height: 2.5rem;
+	width: 2.5rem;
+}
+
+.extension-title h2{
+	color: #555;
+	font-size: 1.1rem;
+	margin-bottom: .1rem;
+}
+
+.extension-title p span{
+	background-color: #ebfffc;
+    color: #00947e;
+	font-size: .70rem;
+	padding: 3px 5px;
+}
+
+.short-desc{
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: .85rem;
+	color: #666;
+	margin-bottom: 5px;
+}
+
+/*footer*/
+footer{
+	border-top: .12rem solid #ededed;
+	padding: 30px 100px;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+}
+
+footer p{
+	font-size: .95rem;
+	color: #666;
+}
+
+footer p a{
+	text-decoration: none;
+	color: #333;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+footer p a:hover{
+	color: #ff808e;
+}
+
+footer img{
+	margin-top: 30px;
+}
+
+footer ul{
+	list-style: none;
+	text-align: center;
+	margin: 20px auto;
+	display: inline-flex;
+}
+
+footer ul li{
+	cursor: pointer;
+	margin: auto 8px;
+}
+/*Page1*/
+.container{
+	background: #fff;
+	padding: 30px 80px;
+	font-family: "Roboto", sans-serif;
+	color: #3a3a3a;
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 2rem;
+}
+
+.infocontainer ul{
+	list-style: none;
+}
+
+.xinfo svg{
+	position: relative;
+	top: 3px;
+}
+
+.infocontainer ul li p{
+	margin-bottom: 15px;
+	margin-top: 5px;
+	font-size: .95rem;
+	color: #ff7474;
+}
+
+.datacontainer h1{
+	font-size: 1.8rem;
+	margin-bottom: 2px;
+}
+
+.devider{
+	height: 4px;
+	width: 85px;
+	background: #ff7474;
+	margin: 20px 0 8px 0;
+}
+
+h2.blockName {
+    margin-bottom: 20px;
+}
+
+p.blocs_inputinfo {
+    margin-bottom: 25px;
+    margin-top: -12px;
+}
+
+p.blocs_desc {
+    margin-top: 15px;
+}
+
+p.blocs_desc b{
+	color: #ff7474;
+}
+
+.block {
+    margin-bottom: 7px;
+}
+
+.datacontainer p ul {
+    list-style: square;
+    margin-left: 18px;
+    margin-top: 5px;
+}
+
+.downloadbutton{
+	background-image: linear-gradient(-180deg, rgba(255, 255, 255, .13) 0%, rgba(0, 184, 15, .10) 100%);
+    border: 1px solid rgba(75, 173, 58, .50);
+    color: #00947e;
+    border-radius: 5px;
+    padding: 5px 13px 5px 15px;
+    text-align: center;
+    cursor: pointer;
+	text-decoration: none;
+	font-size: .95rem;
+}
+
+.downloadbutton svg{
+	position: relative;
+	top: .25rem;
+	right: 5px;
+}
+
