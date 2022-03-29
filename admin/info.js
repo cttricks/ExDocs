@@ -14,6 +14,6 @@ const admin_info = {
 		"forks": "0",
 	},
 	
-	"raw_path" : "https://raw.githubusercontent.com/cttricks/AIX_Icon_Composer/main/demo/",
-	"download_path": "https://github.com/cttricks/AIX_Icon_Composer/blob/main/demo/"
+	"raw_path" : "https://raw.githubusercontent.com/cttricks/ExDocs/main/extension/",
+	"download_path": "https://github.com/cttricks/ExDocs/blob/main/extension/"
 }
