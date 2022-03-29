@@ -1,49 +1,52 @@
 {
- "categoryString": "EXTENSION",
- "dateBuilt": "2019-07-11T06:34:46+0200",
- "nonVisible": "true",
- "iconName": "https://res.cloudinary.com/dq2zsvyoy/image/upload/v1558961204/cttricks.png",
- "methods": [
-  {
-   "deprecated": "false",
-   "name": "EasyQuestions",
-   "description": "Create easy questions",
-   "params": []
+	"categoryString": "EXTENSION",
+	"dateBuilt": "2019-07-11T06:34:46+0200",
+	"nonVisible": "true",
+	"iconName": "https://res.cloudinary.com/dq2zsvyoy/image/upload/v1558961204/cttricks.png",
+	"methods": [
+		{
+			"deprecated": "false",
+			"name": "EasyQuestions",
+			"description": "Create easy questions",
+			"params": []
   },
-  {
-   "deprecated": "false",
-   "name": "HardQuestions",
-   "description": "Create Hard questions",
-   "params": []
+		{
+			"deprecated": "false",
+			"name": "HardQuestions",
+			"description": "Create Hard questions",
+			"params": []
   },
-  {
-   "deprecated": "false",
-   "name": "ModeratreQuestions",
-   "description": "Create Moderate questions",
-   "params": []
+		{
+			"deprecated": "false",
+			"name": "ModeratreQuestions",
+			"description": "Create Moderate questions",
+			"params": []
   }
  ],
- "blockProperties": [],
- "helpUrl": "",
- "type": "io.makeroid.help_cttricks.MathsQuiz.MathsQuiz",
- "version": "1",
- "external": "true",
- "showOnPalette": "true",
- "name": "MathsQuiz",
- "helpString": "You can use this extension to create math problems for a simple kids maths quiz. The questions can be generated according to the difficulty level.The questions of the quiz will always be from Addition, Subtraction, Multiplication & Division.<br><br>Difficulty Level; <ul><li>Easy - Solve one digit equalation!<\/li><li>Moderatre - Solve two/three digit equalation!<\/li><li>Hard -  Solve three/four digit equalation!<\/li><\/ul><br>Made By Ct tricks.<br>For more info visit our webiste<br>https://sites.google.com/view/cttrkcks/home",
- "properties": [],
- "events": [{
-  "deprecated": "false",
-  "name": "QuestionCreated",
-  "description": "Event for QuestionCreated",
-  "params": [
-   {
-    "name": "question",
-    "type": "text"
+	"blockProperties": [],
+	"helpUrl": "",
+	"type": "io.makeroid.help_cttricks.MathsQuiz.MathsQuiz",
+	"version": "1",
+	"datePublish": "11 June 2019",
+	"license": "MIT",
+	"filesize": "9.50KB",
+	"external": "true",
+	"showOnPalette": "true",
+	"name": "MathsQuiz",
+	"helpString": "You can use this extension to create math problems for a simple kids maths quiz. The questions can be generated according to the difficulty level.The questions of the quiz will always be from Addition, Subtraction, Multiplication & Division.<br><br>Difficulty Level; <ul><li>Easy - Solve one digit equalation!<\/li><li>Moderatre - Solve two/three digit equalation!<\/li><li>Hard -  Solve three/four digit equalation!<\/li><\/ul><br>Made By Ct tricks.<br>For more info visit our webiste<br>https://sites.google.com/view/cttrkcks/home",
+	"properties": [],
+	"events": [{
+		"deprecated": "false",
+		"name": "QuestionCreated",
+		"description": "Event for QuestionCreated",
+		"params": [
+			{
+				"name": "question",
+				"type": "text"
    },
-   {
-    "name": "answer",
-    "type": "number"
+			{
+				"name": "answer",
+				"type": "number"
    }
   ]
  }]
